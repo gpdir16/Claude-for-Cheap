@@ -5,7 +5,7 @@
     "description": "Allows Claude Code to delegate token-intensive tasks like codebase navigation to Codex.",
     "main": "server.js",
     "bin": {
-        "claude-for-cheap": "./server.js"
+        "claude-for-cheap": "server.js"
     },
     "scripts": {
         "start": "node server.js"
