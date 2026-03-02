@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "claude-for-cheap": {
+      "command": "node",
+      "args": ["/Users/gpdir16/2.Other/Claude-for-Cheap/server.js"]
+    }
+  }
+}

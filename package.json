@@ -1,0 +1,20 @@
+{
+    "name": "claude-for-cheap",
+    "version": "0.1.0",
+    "type": "module",
+    "description": "Allows Claude Code to delegate token-intensive tasks like codebase navigation to Codex.",
+    "main": "server.js",
+    "bin": {
+        "claude-for-cheap": "./server.js"
+    },
+    "scripts": {
+        "start": "node server.js"
+    },
+    "engines": {
+        "node": ">=18.17.0"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.27.1",
+        "zod": "^4.3.6"
+    }
+}
