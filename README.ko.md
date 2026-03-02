@@ -14,9 +14,12 @@
 
 ## 사용 방법
 
-아래 내용을 `~/.claude/settings.json`에 추가하거나, 특정 프로젝트에서만 사용하려면 프로젝트 루트의 `.mcp.json`에 추가하세요.
+### 방법 A: 명령어 사용 (권장)
 
-### 방법 A: npx 사용 (권장)
+`claude mcp add --scope user claude-for-cheap -- npx -y claude-for-cheap`
+위 명령어를 실행하여 Claude Code에 MCP 서버를 추가하세요.
+
+### 방법 B: npx를 사용하여 수동 설치
 
 별도 설치 없이 최신 버전을 자동으로 사용합니다.
 
@@ -31,7 +34,7 @@
 }
 ```
 
-### 방법 B: 로컬 클론
+### 방법 C: 로컬 클론을 이용하여 수동 설치
 
 이 저장소를 클론하고 `npm install` 실행 후 로컬 `server.js` 경로를 지정하세요:
 

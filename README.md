@@ -14,11 +14,14 @@ This project was created to prevent the usage limit from being reached too quick
 
 ## How to Use
 
-Add the following to `~/.claude/settings.json`, or to `.mcp.json` in the project root if you want to use it only for a specific project.
+### Option A: Use the command (Recommended)
 
-### Option A: via npx (recommended)
+`claude mcp add --scope user claude-for-cheap -- npx -y claude-for-cheap`
+Run the command above to add the MCP server to Claude Code.
 
-No installation required. Uses the latest published version automatically.
+### Option B: Manual installation using npx
+
+This automatically uses the latest version without a separate installation.
 
 ```json
 {
@@ -31,7 +34,7 @@ No installation required. Uses the latest published version automatically.
 }
 ```
 
-### Option B: local clone
+### Option C: Manual installation using a local clone
 
 Clone this repository, run `npm install`, then point to the local `server.js`:
 
