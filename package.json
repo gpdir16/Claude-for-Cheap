@@ -1,6 +1,6 @@
 {
     "name": "claude-for-cheap",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "type": "module",
     "description": "Allows Claude Code to delegate token-intensive tasks like codebase navigation to Codex.",
     "main": "server.js",
